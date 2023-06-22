@@ -12,6 +12,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "MunroGo",
+      description: "A mountain-climbing app built using FastAPI, Mongo DB, and React. Integrated APIs for real-time updates on weather conditions and topological maps leveraging the database of British and Irish Hills. MunroGo is a comprehensive guide to all of Scotland's 282 Munros.",
       imgUrl: projImg1,
     },
     {
@@ -64,12 +65,6 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
