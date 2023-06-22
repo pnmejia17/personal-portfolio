@@ -1,8 +1,10 @@
 import { Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
+export const ProjectCard = ({ title, description, imgUrl, link }) => {
   return (
     <Col size={12} sm={6} md={4}>
+      <a href="https://elijahram.gitlab.io/munro-go/">
       <div className="proj-imgbx">
         <img src={imgUrl} />
         <div className="proj-txtx">
@@ -10,6 +12,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
           <span>{description}</span>
         </div>
       </div>
+      </a>
     </Col>
   )
 }
